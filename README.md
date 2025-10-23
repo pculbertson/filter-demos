@@ -61,7 +61,7 @@ The particle filter attempts to represent our belief using "particles" - a weigh
 4. **Resampling**: Particles are resampled to create a new particle set whose equally-weighted locations matches the weighted set from the previous step. For each particle $k$, we resample a new particle index $i$ using $$ i^{(k)} \sim \textrm{Categorical}(w_t^1, \ldots, w_t^N) $$ and set the new particle to be at the same location as the sampled particle, $$ (w_t^k, \mathbf{x}_t^{(k)}) = (\frac{1}{N}, \mathbf{x}_t^{i^{(k)}}). $$
 
 <iframe
-  src="https://pculbertson.github.io/viser-client/?playbackPath=https://pculbertson.github.io/recordings/pf_steps.viser&initialCameraPosition=1.762,1.284,6.750&initialCameraLookAt=-0.745,-2.293,1.971&initialCameraUp=-0.000,0.000,1.000"
+  src="https://pculbertson.github.io/filter-demos/viser-client/?playbackPath=https://pculbertson.github.io/filter-demos/recordings/pf_steps.viser&initialCameraPosition=1.762,1.284,6.750&initialCameraLookAt=-0.745,-2.293,1.971&initialCameraUp=-0.000,0.000,1.000"
   width="800"
   height="600"
   style="border: none; border-radius: 8px;"
