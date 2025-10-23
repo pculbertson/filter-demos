@@ -1,0 +1,7 @@
+
+theme: minima
+
+kramdown:
+  input: Kramdown
+  hard_wrap: false
+  math_engine: mathjax # or 'katex' if you use that
